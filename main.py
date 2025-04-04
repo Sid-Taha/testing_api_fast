@@ -19,8 +19,7 @@ def get_function():
 class KuchBhi(BaseModel):
     name: str
    
-
-
+   
 # create
 @app.post("/") # url
 def post_function(data: KuchBhi):
